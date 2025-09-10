@@ -1,4 +1,5 @@
-function calcularTabuada() {
+function  calcularTabuada() {  
+
     let numero = document.getElementById("numero").value;
     let resultadoDiv = document.getElementById("resultado");
 
@@ -12,7 +13,8 @@ function calcularTabuada() {
             resultadoHTML += "<p>" + numero + " x " + i + " = " + (numero * i) + "</p>";
             i++;
         }
+        
+        resultadoDiv.innerHTML = resultadoHTML;
     }
-
-    resultadoDiv.innerHTML = resultadoHTML;
+    
 }

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f0f0f5;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,10 +9,10 @@ body {
 }
 
 .container {
-    background: white;
+    background: rgba(241, 128, 224, 0.46);
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgb(253, 4, 245);
     text-align: center;
     width: 300px;
 }
@@ -25,7 +25,7 @@ input {
     padding: 8px;
     width: 80%;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ff00c8;
     border-radius: 8px;
 }
 
@@ -36,7 +36,6 @@ button {
     background: #4CAF50;
    color: white;
    font-size: 16px;
-   cursor: pointer;
 }
 
 button:hover {
